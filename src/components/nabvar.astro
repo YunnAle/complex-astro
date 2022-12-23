@@ -1,0 +1,132 @@
+---
+import React from "react";
+import Logo from "../assets/img/logo.png";
+import YTlogo from "../assets/icons/youtube.svg";
+import Comp4 from "../assets/icons/Componente4.svg";
+import Comp5 from "../assets/icons/Componente5.svg";
+import MenuWhite from "../assets/icons/menu-white.svg";
+---
+
+<nav
+    id="header"
+    class="xl:h-1/4 w-full z-30 top-0 text-white py-1 lg:py-6 sm:px-8 md:px-18 lg:px-24 xl:px-32"
+>
+    <div
+        class="w-full h-1/2 flex flex-wrap items-center justify-between mt-0 px-2 py-2 lg:py-6"
+    >
+        <div class="pl-4 flex items-center">
+            <a
+                class="text-white text-center no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
+                href="#"
+            >
+                <img class="h-12 xl:h-32" src={Logo} alt="" />
+            </a>
+        </div>
+        <div class="flex flex-col xl:hidden">
+            <div
+                class="flex flex-row w-2/3 mx-auto justify-center content-center content-center"
+            >
+                <a
+                    href="https://www.youtube.com/channel/UCFGFi1g81RqERL33F8t1ZrQ"
+                    target="_blank"
+                >
+                    <div class="mx-1 my-auto"><img src={YTlogo} /></div>
+                </a>
+                <a
+                    href="https://www.facebook.com/complexbeisbol/"
+                    target="_blank"
+                >
+                    <div class="mx-1 my-auto"><img src={Comp4} /></div>
+                </a>
+                <a
+                    href="https://www.instagram.com/complexbeisbol/"
+                    target="_blank"
+                >
+                    <div class="mx-1 my-auto"><img src={Comp5} /></div>
+                </a>
+            </div>
+            <div
+                class="w-1/2 flex flex-col justify-center content-center order-first md:order-last"
+            >
+                <div class={`font-bold w-full text-xs text-white`}>
+                    +52 (664) 634-6206
+                </div>
+                <div class={`w-full text-xs text-white`}>
+                    info@complexbeisbol.org
+                </div>
+            </div>
+        </div>
+        <div class="block xl:hidden pr-4">
+            <button
+                id="nav-toggle"
+                class={`flex items-center px-3 py-2 text-gray-500 border-gray-600 hover:text-gray-800 hover:border-green-500 appearance-none focus:outline-none text-white`}
+            >
+                <!--${
+                            location.pathname == "/" && "text-white"
+                        } -->
+                <img src={MenuWhite} />
+            </button>
+        </div>
+        <div
+            class="flex-grow xl:flex xl:items-center xl:w-auto hidden xl:block mt-2 xl:mt-0 text-black p-4 xl:p-0 z-20"
+            id="nav-content"
+        >
+            <ul class="list-reset lg:flex justify-end flex-1 items-center">
+                <li class="mr-3">
+                    <a
+                        class={`inline-block no-underline hover:text-gray-400 hover:text-underline py-2 px-4 text-xl`}
+                        href="#">Inicio</a
+                    >
+                </li>
+                <li class="mr-3">
+                    <a
+                        class={`inline-block no-underline hover:text-gray-400 hover:text-underline py-2 px-4 text-xl`}
+                        href="#about">Nosotros</a
+                    >
+                </li>
+                <li class="mr-3">
+                    <a
+                        class={`inline-block no-underline hover:text-gray-400 hover:text-underline py-2 px-4 text-xl`}
+                        href="#proyect">Proyecto</a
+                    >
+                </li>
+                <li class="mr-3">
+                    <a
+                        class={`inline-block no-underline hover:text-gray-400 hover:text-underline py-2 px-4 text-xl`}
+                        href="#news">Noticias</a
+                    >
+                </li>
+            </ul>
+            <div class="w-1/3 flex flex-row">
+                <div class="flex flex-row w-1/2 justify-center content-center">
+                    <a
+                        href="https://www.youtube.com/channel/UCFGFi1g81RqERL33F8t1ZrQ"
+                        target="_blank"
+                    >
+                        <div class="mx-1 my-auto"><img src={YTlogo} /></div>
+                    </a>
+                    <a
+                        href="https://www.facebook.com/complexbeisbol/"
+                        target="_blank"
+                    >
+                        <div class="mx-1 my-auto"><img src={Comp4} /></div>
+                    </a>
+                    <a
+                        href="https://www.instagram.com/complexbeisbol/"
+                        target="_blank"
+                    >
+                        <div class="mx-1 my-auto"><img src={Comp5} /></div>
+                    </a>
+                </div>
+                <div
+                    class="w-1/2 flex flex-col justify-center content-center order-first md:order-last"
+                >
+                    <div class={`font-bold w-full text-xs`}>
+                        +52 (664) 634-6206
+                    </div>
+                    <div class={` w-full text-xs`}>info@complexbeisbol.org</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>

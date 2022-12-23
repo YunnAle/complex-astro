@@ -1,0 +1,716 @@
+---
+import React from "react";
+import  Navbar  from "@components/nabvar.astro";
+import Manos from "../assets/img/manos.jpg";
+import Bat from "../assets/img/bat-1.jpg";
+import Comp6 from "../assets/img/Componente6.png";
+import Comp7 from "../assets/img/Componente7.png";
+import Comp8 from "../assets/img/Componente8.png";
+import Rojo from "../assets/img/rojo.png";
+import PinturasGuerra from "../assets/img/pinturas-guerra.png";
+import Carls from "../assets/img/carls-jr-tmj7iz.png";
+import Cdt2 from "../assets/img/cdt2.png";
+import PelotaMano from "../assets/img/pelota-mano.jpg";
+import Carrera from "../assets/img/carrera.jpg";
+import Nino from "../assets/img/niño.jpg";
+import Pelotas from "../assets/img/pelotas.jpeg";
+import YTlogo from "../assets/icons/youtube-white.svg";
+import FBlogo from "../assets/icons/facebook.svg";
+import IGlogo from "../assets/icons/instagram.svg";
+import MessageCircle from "../assets/icons/message-circle.svg";
+import Logo from "../assets/img/logo.png";
+import "../assets/css/styles.css"
+const handlePrev = () => {};
+const handleNext = () => {};
+
+const submitted = () => {};
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Complex</title>
+	</head>
+	<body>
+		<div>
+			<div
+				class="w-full h-screen img-hero bg-center bg-fixed bg-no-repeat bg-center bg-cover"
+			>
+				<Navbar />
+				<div
+					class="w-full h-2/3 xl:h-3/4 sm:px-8 md:px-18 lg:px-24 xl:px-32"
+				>
+					<div
+						class="w-full xl:w-1/2 h-full flex flex-col pt-16 xl:pt-0 p-4 xl:p-10 my-auto box-hero"
+					>
+						<h1
+							class="my-4 text-2xl text-4xl lg:text-6xl text-white leading-tight font-medium text-center lg:text-left"
+						>
+							Beisbol <span class="text-gray-400">•</span> Softbol
+							<br /> Infantil y Juvenil
+						</h1>
+						<p
+							class="leading-normal font-medium text-white text-xs lg:text-lg mb-8 mr-3 text-center lg:text-left"
+						>
+							Unidos Sociedad Civil y Universidad a traves de la
+							facultad de deportes, buscamos aportar al desarrollo
+							integral de nuestros niños, niñas y adolescentes, a
+							partir de la enseñanza y formación en las
+							disciplinas deportivas del béisbol y sóftbol.
+						</p>
+						<a href="afiliate.html">
+							<button
+								class="bg-red w-2/3 mx-auto lg:mx-0 lg:w-1/3 text-white uppercase p-3 text-2xl font-semibold"
+								>AFILIATE</button
+							>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<section id="about" class="w-full h-full mx-auto js-show-on-scroll">
+				<div class="w-full h-full">
+					<div
+						class="w-full container mx-auto py-10 h-1/3 flex flex-col lg:flex-row"
+					>
+						<div class="w-full lg:w-1/4 flex">
+							<h2
+								class="my-auto text-left text-center montserrat font-normal w-full text-2xl lg:text-4xl text-black mr-3"
+							>
+								Finalidad del Proyecto
+							</h2>
+						</div>
+						<div class="w-full lg:w-2/4 lg:h-3/4 lg:my-auto flex">
+							<p
+								class="montserrat w-full text-sm lg:text-base mb-2 lg:mb-0 mt-2 lg:mt-0 font-normal flex mr-6 text-left"
+							>
+								Al amparo del espíritu y valores universitarios,
+								buscamos implementar una iniciativa ciudadana,
+								que contribuya desde temprana edad en la
+								realización plena de la niñez y juventud baja
+								californiana; al contemplar en la ejecución del
+								proyecto, aportes en educación, cultura, salud
+								física y psicológica, integración comunitaria y
+								derechos de los niños, niñas y adolescentes.
+							</p>
+						</div>
+						<div
+							class="w-full lg:w-1/4 h-full flex order-first lg:order-last mb-6 lg:mb-0 self-center"
+						>
+							<img
+								class="border-2 border-white rounded-lg mx-auto my-auto"
+								src={Manos}
+								width="380"
+								height="180"
+							/>
+						</div>
+					</div>
+				</div>
+				<div class="w-full h-full pink border-rad2">
+					<div
+						class="w-full lg:w-3/4 h-1/2 py-10 mx-auto flex flex-col lg:flex-row py-4 pt-10 py-8 xl:pt-20"
+					>
+						<div class="w-full lg:w-1/3 h-full self-center">
+							<img
+								class="rounded-lg"
+								src={Bat}
+								width="420"
+								height="420"
+							/>
+						</div>
+						<div class="w-full lg:w-2/3 mt-2 lg:mt-0 self-center">
+							<p
+								class="text-black montserrat font-semibold mb-4 text-base lg:text-3xl w-full lg:w-3/4"
+							>
+								Los niños,niñas y adolescentes que podrán ser
+								beneficiados de este proyecto, son todos
+								aquellos que deseen aprender, disfrutar y
+								desarrollar el beisbol y sóftbol, en especial:
+							</p>
+							<p class="text-xs lg:text-lg text-left">
+								- Los pertenecientes al sistema educativo
+								<br />&nbsp;&nbsp;(preescolar, primaria,
+								secundaria y preparatoria).<br />
+								- Los que se encuentran en alguna situación de vulnerabilidad
+								o discapacidad. <br />
+								- Aquellos de alto rendimiento deportivo y los que
+								esten en vías de lograrlo.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div
+					class="w-full container py-10 mx-auto flex flex-col lg:flex-row pb-10 xl:pb-20"
+				>
+					<div class="w-full lg:w-2/3 mt-2 lg:mt-0 self-center">
+						<p class="text-xs lg:text-xl text-left">
+							Somos una organización sin fines de lucro, laica y
+							apolítica, destinada al mejoramiento del entorno de
+							los niños y jóvenes, en especial de aquellos que
+							practican beisbol.
+						</p>
+						<div class="w-full flex flex-row mt-4">
+							<div class="w-1/3 pr-2">
+								<a
+									href="http://www.njb.mx"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<img class="mx-auto" src={Comp6} />
+								</a>
+							</div>
+							<div class="w-1/3 pr-2">
+								<a
+									href="http://www.uabc.mx/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<img class="mx-auto" src={Comp7} />
+								</a>
+							</div>
+							<div class="w-1/3 pr-2">
+								<a
+									href="http://deportes.uabc.mx/Tijuana/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<img class="mx-auto" src={Comp8} />
+								</a>
+							</div>
+						</div>
+					</div>
+					<div
+						class="w-full lg:w-1/3 h-full self-center order-first lg:order-last"
+					>
+						<img
+							class="mx-auto border-2 rounded-lg"
+							src={Rojo}
+							width="420"
+							height="420"
+						/>
+					</div>
+				</div>
+			</section>
+
+			<section
+				id="proyect"
+				class="container w-full h-full mx-auto bg-white pt-16 xl:pt-32 js-show-on-scroll"
+			>
+				<h2
+					class="my-2 montserrat w-full text-2xl lg:text-5xl font-semibold w-full py-3"
+				>
+					Metas a Corto, Mediano y Largo Plazo.
+				</h2>
+				<div class="w-full h-full flex flex-col lg:flex-row">
+					<div
+						class="w-full lg:w-6/12 h-full flex flex-col lg:flex-row px-50"
+					>
+						<div class="h-full w-full lg:w-1/2">
+							<ul class="mx-2">
+								<div
+									class="flex flex-row my-2 pt-5 h-24 min-h-full"
+								>
+									<div
+										class="bg-green rounded-full px-2 h-8 w-8 flex items-center justify-center text-white"
+									>
+										1
+									</div>
+									<div class="w-full ml-2 h-10/12">
+										<li class="min-h-full text-sm">
+											Aumentar la cantidad de niños que
+											practican béisbol y sóftbol.
+										</li>
+									</div>
+								</div>
+								<div
+									class="flex flex-row my-2 pt-5 h-24 min-h-full"
+								>
+									<div
+										class="bg-green rounded-full px-2 h-8 w-8 flex items-center justify-center text-white"
+									>
+										2
+									</div>
+									<div class="w-full h-10/12 ml-2">
+										<li class="text-sm">
+											Contar con espacios dignos para la
+											práctica,formación y competencia
+											deportiva.
+										</li>
+									</div>
+								</div>
+								<div
+									class="flex flex-row my-2 pt-5 h-24 min-h-full"
+								>
+									<div
+										class="bg-green rounded-full px-2 h-8 w-8 flex items-center justify-center text-white"
+									>
+										3
+									</div>
+									<div class="w-full h-10/12 ml-2">
+										<li class="min-h-full text-sm">
+											Fomentar transversalmente el
+											desarrollo integral de los niños,
+											niñas y adolescentes.
+										</li>
+									</div>
+								</div>
+								<div
+									class="flex flex-row my-2 pt-5 h-24 min-h-full"
+								>
+									<div
+										class="bg-green rounded-full px-2 h-8 w-8 flex items-center justify-center text-white"
+									>
+										4
+									</div>
+									<div class="w-full h-10/12 ml-2">
+										<li class="min-h-full text-sm">
+											Instaurar el béisbol recreacional.
+										</li>
+									</div>
+								</div>
+							</ul>
+						</div>
+						<div class="h-full w-full lg:w-1/2">
+							<ul class="w-full h-full mx-2">
+								<div
+									class="flex flex-row my-2 pt-5 h-24 min-h-full"
+								>
+									<div
+										class="bg-green rounded-full px-2 h-8 w-8 flex items-center justify-center text-white"
+									>
+										5
+									</div>
+									<div class="w-full h-10/12 ml-2">
+										<li class="min-h-full text-sm">
+											Coadyuvar con los niños, niñas y
+											adolescentes de alto rendimiento.
+										</li>
+									</div>
+								</div>
+								<div
+									class="flex flex-row my-2 pt-5 h-24 min-h-full"
+								>
+									<div
+										class="bg-green rounded-full px-2 h-8 w-8 flex items-center justify-center text-white"
+									>
+										6
+									</div>
+									<div class="w-full h-10/12 ml-2">
+										<li class="min-h-full text-sm">
+											Brindar capacitación y permear a las
+											ligas de béisbol, en la formación
+											integral y el respeto de los
+											derechos de los niños, niñas y
+											adolescentes.
+										</li>
+									</div>
+								</div>
+								<div
+									class="flex flex-row my-2 pt-5 h-24 min-h-full"
+								>
+									<div
+										class="bg-green rounded-full px-2 h-8 w-8 flex items-center justify-center text-white"
+									>
+										7
+									</div>
+									<div class="w-full h-10/12 ml-2">
+										<li class="min-h-full text-sm">
+											Fortalecer la capacidad de
+											resiliencia.
+										</li>
+									</div>
+								</div>
+								<div
+									class="flex flex-row my-2 pt-5 h-24 min-h-full"
+								>
+									<div
+										class="bg-green rounded-full px-2 h-8 w-8 flex items-center justify-center text-white"
+									>
+										8
+									</div>
+									<div class="w-full h-10/12 ml-2">
+										<li class="min-h-full text-sm">
+											Implantar el espíritu y aspiración
+											universitaria desde temprana edad.
+										</li>
+									</div>
+								</div>
+							</ul>
+						</div>
+					</div>
+					<div class="w-11/12 lg:w-6/12 h-full flex my-auto">
+						<img
+							class="mx-auto border-2 border-white rounded-lg"
+							src={PelotaMano}
+							width="471"
+							height="398"
+						/>
+					</div>
+				</div>
+			</section>
+
+			<section
+				class="w-full h-full mx-auto bg-white pt-16 xl:pt-32 js-show-on-scroll"
+			>
+				<div class="wrapper">
+					<div class="custom-shape-divider-bottom-1632188193">
+						<svg
+							data-name="Layer 1"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 1200 120"
+							preserveAspectRatio="none"
+						>
+							<path
+								d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+								class="shape-fill"></path>
+						</svg>
+					</div>
+				</div>
+				<div class="w-full h-1/2 bg-green xl:py-10">
+					<div class="w-3/4 mx-auto flex flex-row">
+						<button
+							
+							class="text-lg md:text-xl lg:hidden text-white text-right xl:pointer-events-none"
+						></button>
+						<!--onClick={() => {
+								handlePrev();
+							}} -->
+						<div class="flex flex-col mx-auto">
+							<div
+								class="w-full lg:w-1/4 flex mx-auto whitespace-nowrap text-left"
+							>
+								<h2
+									class="my-auto text-left montserrat font-normal w-full text-2xl lg:text-4xl text-white mr-3"
+								>
+									Patrocinado por:
+								</h2>
+							</div>
+							<div class="flex flex-row mx-auto">
+								<div
+									id="slide2"
+									class="hidden xl:block tex-lg xl:text-xl text-white px-6 text-center my-auto"
+								>
+									<img
+										width="255"
+										height="254"
+										src={PinturasGuerra}
+									/>
+								</div>
+								<div
+									id="slide1"
+									class="xl:text-xl text-white px-6 mx-auto xl:mx-0 text-center my-auto"
+								>
+									<img width="352" height="123" src={Carls} />
+								</div>
+								<div
+									id="slide3"
+									class="hidden xl:block tex-lg xl:text-xl text-white px-6 text-center my-auto"
+								>
+									<img width="322" height="236" src={Cdt2} />
+								</div>
+							</div>
+						</div>
+						<button
+							
+							class="xl:pointer-events-none text-lg md:text-xl lg:hidden text-white text-right"
+						>
+						<!--onclick={() => {
+								handleNext();
+							}}-->
+						</button>
+					</div>
+				</div>
+			</section>
+
+			<div class="w-full h-full bg-green js-show-on-scroll">
+				<div class="w-full h-full border-rad">
+					<section
+						class="from-img bg-center bg-fixed bg-no-repeat bg-center bg-cover w-full h-screen"
+					>
+						<div
+							class="w-full lg:w-2/3 mx-auto h-full flex justify-end"
+						>
+							<div
+								class="w-full md:w-3/4 lg:w-2/4 xl:w-1/2 h-10/12 my-auto py-20 px-10 orange-form flex flex-col"
+							>
+								<div
+									id="circle"
+									class="flex justify-center items-center"
+								>
+									<img src={MessageCircle}/>
+								</div>
+								<strong
+									class="text-white monserrat font-bold text-2xl text-center"
+									>¡Suscribete!</strong
+								>
+								<p
+									class="font-gray-form mt-3 text-white montserrat font-normal tex mb-2"
+								>
+									Entérate de todas nuestras actividades y se
+									parte de nuestra comunidad beisbolera..
+								</p>
+								<form action="">
+									<div
+										class="grid lg:grid-cols-2 grid-cols-1 lg:flex-row w-full h-full"
+									>
+										<div class="flex flex-col">
+											<label
+												class="mt-4 w-full lg:w-10/12 font-gray-form text-white"
+												>Nombre</label
+											>
+											<input
+												class="w-full lg:w-10/12 font-gray-form orange-form border-b-2 my-2"
+												type="text"
+												name=""
+												id=""
+											/>
+										</div>
+										<div class="flex flex-col">
+											<label
+												class="w-full lg:w-10/12 font-gray-form mt-4 text-white"
+												>Teléfono</label
+											>
+											<input
+												class="w-full lg:w-10/12 font-gray-formborder-2 orange-form border-b-2 my-2"
+												type="tel"
+												name=""
+												id=""
+											/>
+										</div>
+										<div class="flex flex-col">
+											<label
+												class="w-full lg:w-10/12 font-gray-form mt-4 text-white"
+												>Correo Electrónico</label
+											>
+											<input
+												class="w-full lg:w-10/12 font-gray-form orange-form border-b-2 my-2"
+												type="email"
+												name=""
+												id=""
+											/>
+										</div>
+										<div class="flex flex-col">
+											<label
+												class="w-full lg:w-10/12 font-gray-form mt-4 text-white"
+												>Edad</label
+											>
+											<input
+												class="w-full lg:w-10/12 font-gray-form orange-form border-b-2 my-2"
+												type="number"
+												name=""
+												id=""
+											/>
+										</div>
+									</div>
+									<button
+										type="submit"
+										
+										class="hover:opacity-50 mt-6 w-full bg-white text-black border-2 rounded bg-aqua p-2 self-end"
+										>ENVIAR</button
+									><!--onClick={() => {
+											submitted();
+										}} -->
+								</form>
+							</div>
+						</div>
+					</section>
+
+					<section
+						id="news"
+						class="w-10/12 mx-auto bg-white p-6 sm:p-12 md:p-14 lg:p-18 pt-0 mt-0 relative mt-24 xl:mt-0 xl:-top-24"
+					>
+						<div class="w-full container mx-auto flex flex-wrap">
+							<div
+								class="w-full flex flex-col lg:flex-row lg:justify-around"
+							>
+								<div class="w-full lg:w-3/4 py-4">
+									<h2
+										class="my-2 text-2xl lg:text-5xl font-black leading-tight text-gray-800"
+									>
+										Niños y Jóvenes Beisbolistas de Tijuana
+										A. C.
+									</h2>
+								</div>
+								<div
+									class="w-full lg:w-1/4 flex justify-center lg:justify-end"
+								>
+									<button
+										class="blog-button w-1/2 h-16 my-auto bg-red-600 text-white font-bold text-lg"
+										>Leer más</button
+									>
+								</div>
+							</div>
+								<div
+									class="w-full md:w-1/2 lg:w-1/3 p-6 flex flex-col flex-grow flex-shrink container flex justify-center"
+								>
+									<div class="py-16">
+										<div
+											class="bg-white relative shadow-lg hover:shadow-xl transition duration-500 rounded-lg"
+										>
+											<img
+												class="rounded-t-lg"
+												src={Carrera}
+											/>
+											<div
+												class="py-6 px-8 rounded-lg bg-white"
+											>
+												<h1
+													class="text-gray-600 font-bold text-lg mb-3 hover:text-gray-600 hover:cursor-pointer"
+												>
+													Regresando al campo, con la
+													nueva normalidad…
+												</h1>
+											</div>
+											<div
+												class="absolute top-2 right-2 py-2 px-4 bg-white rounded-lg"
+											>
+												<span class="text-md"
+													>Abril 02, 2021</span
+												>
+											</div>
+										</div>
+									</div>
+								</div>
+							<div
+								class="w-full md:w-1/2 lg:w-1/3 p-6 flex flex-col flex-grow flex-shrink container flex justify-center"
+							>
+								<div class="py-16">
+									<div
+										class="bg-white relative shadow-lg hover:shadow-xl transition duration-500 rounded-lg"
+									>
+										<img class="rounded-t-lg" src={Nino} />
+										<div
+											class="py-6 px-8 rounded-lg bg-white"
+										>
+											<h1
+												class="text-gray-600 font-bold text-lg mb-3 hover:text-gray-600 hover:cursor-pointer"
+											>
+												¿Como afecto la pandemia en el
+												deporte infantil?
+											</h1>
+										</div>
+										<div
+											class="absolute top-2 right-2 py-2 px-4 bg-white rounded-lg"
+										>
+											<span class="text-md"
+												>Marzo 26, 2021.</span
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div
+								class="w-full md:w-1/2 lg:w-1/3 p-6 flex flex-col flex-grow flex-shrink container flex justify-center"
+							>
+								<div class="py-16">
+									<div
+										class="bg-white relative shadow-lg hover:shadow-xl transition duration-500 rounded-lg"
+									>
+										<img
+											class="rounded-t-lg"
+											src={Pelotas}
+										/>
+										<div
+											class="py-6 px-8 rounded-lg bg-white"
+										>
+											<p
+												class="text-gray-600 font-bold text-lg mb-3 hover:text-gray-600 hover:cursor-pointer"
+											>
+												Acciones simples para la
+												iniciación deportiva en el
+												béisbol...
+											</p>
+										</div>
+										<div
+											class="absolute top-2 right-2 py-2 px-4 bg-white rounded-lg"
+										>
+											<span class="text-md"
+												>Marzo 19, 2021.</span
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<div class="w-full h-full bg-green pb-16">
+				<footer class="bg-green border-rad2">
+					<div
+						class="container mx-auto px-2 xl:px-8 w-10/12 border-gray-200 border-b-2"
+					>
+						<div
+							class="w-full mx-auto grid grid-cols-2 lg:grid-cols-3 py-6"
+						>
+							<div
+								class="w-full flex items-center justify-center order-last xl:order-first"
+							>
+								<a
+									class="text-white text-center no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
+									href="#"
+								>
+									<img class="h-12 mx-auto" src={Logo} />
+								</a>
+							</div>
+							<div class="flex flex-col mx-auto">
+								<div
+									class="flex flex-row2 m-auto justify-center content-center"
+								>
+									<div class="flex flex-row">
+										<a
+											href="https://www.youtube.com/channel/UCFGFi1g81RqERL33F8t1ZrQ"
+											target="_blank"
+										>
+											<div
+												class="mx-3 img-socialmedia mx-1 my-auto"
+											>
+												<img src={YTlogo} />
+											</div>
+										</a>
+										<a
+											href="https://www.facebook.com/complexbeisbol/"
+											target="_blank"
+										>
+											<div
+												class="mx-3 img-socialmedia mx-1 my-auto"
+											>
+												<img src={FBlogo} />
+											</div>
+										</a>
+										<a
+											href="https://www.instagram.com/complexbeisbol/"
+											target="_blank"
+										>
+											<div
+												class="mx-3 img-socialmedia mx-1 my-auto"
+											>
+												<img src={IGlogo} />
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div>
+								<p
+									class="my-5 text-white text-center xl:text-right"
+								>
+									www.njb.mx <br /> Tijuana, Baja California, Mèxico.
+									<br />
+									info@complex.com <br /> Tel (664) 634 6206
+								</p>
+							</div>
+						</div>
+					</div>
+					<p class="text-center text-white mt-5">
+						@ Copyright 2021, All Rights Reserved by Cilabs
+					</p>
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>

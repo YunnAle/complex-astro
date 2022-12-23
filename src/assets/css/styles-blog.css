@@ -1,0 +1,36 @@
+
+.html {
+  font-family: 'Hind', sans-serif;
+  }
+.body {
+  font-family: 'Hind', sans-serif;
+}
+
+  .img-hero-blog  {
+    background-image:
+    url(../img/pelota.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+  }
+
+  .bg-green {
+    background: #298E43;
+  }
+
+  .quote-div-color {
+    background-color: #317C27;
+  }
+
+  .verticalLine {
+  border-left: thick solid #ff0000;
+  }
+
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    background: none;
+  }
+
+
+
+

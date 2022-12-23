@@ -1,0 +1,207 @@
+.html {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+.body {
+  font-family: "Popins" !important;
+}
+
+@font-face {
+  font-family: "Popins";
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+
+.gradient {
+  background-image: linear-gradient(-225deg, #cbbacc 0%, #2580b3 100%);
+}
+
+.pink {
+  background-color: #EFF3F9;
+}
+
+.orange-form {
+  background-color: #D31820;
+}
+
+/* Browser mockup code
+ * Contribute: https://gist.github.com/jarthod/8719db9fef8deb937f4f
+ * Live example: https://updown.io
+ */
+
+.browser-mockup {
+  border-top: 2em solid rgba(230, 230, 230, 0.7);
+  position: relative;
+  height: 60vh;
+}
+
+.img-hero {
+  background-image:
+    linear-gradient(to bottom, rgba(74, 74, 74, 0.5), rgba(10, 34, 88, 0.74)), url(../img/hero.png);
+  border-radius: 100%/0 0 90px 120px;
+}
+
+/* .box-hero {
+      background: #238729;
+      opacity: 0.52;
+    } */
+
+.from-img {
+  background-image: url(../img/guante.jpeg);
+  border-radius: 100% 0 0 90px 120px;
+}
+
+.border-rad {
+  border-radius: 100%/0 0 90px 120px;
+}
+
+.animation-scrool-in {
+  animation-duration: 3s;
+  animation-name: slidein-hero;
+}
+
+.animation-scrool-out {
+  animation-duration: 3s;
+  animation-name: slideout-hero;
+}
+
+@keyframes slidein-hero {
+  from {
+    margin-top: 25%;
+    height: 125%;
+    opacity: 0.2;
+  }
+
+  to {
+    margin-top: 0%;
+    height: 50%;
+    opacity: 1;
+  }
+}
+
+@keyframes slideout-hero {
+  from {
+    margin-bottom: 25%;
+    height: 125%;
+    opacity: 0.2;
+  }
+
+  to {
+    margin-bottom: 0%;
+    height: 50%;
+    opacity: 1;
+  }
+}
+
+.border-rad2 {
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+}
+
+/* @media screen and (min-width:1025) {
+      .border-rad2 {
+        border-top-left-radius: 150px;
+        border-top-right-radius: 150px;
+      }
+    }*/
+
+@media(max-width:1024px) {
+  .border-rad2 {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+}
+
+.browser-mockup:before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: -1.25em;
+  left: 1em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: #f44;
+  box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+}
+
+.browser-mockup>* {
+  display: block;
+}
+
+#circle {
+  background: #DC454C;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.bg-green {
+  background: #298E43;
+}
+
+.bg-red {
+  background-color: #D0021B;
+}
+
+.custom-shape-divider-bottom-1632188193 {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1632188193 svg {
+  position: relative;
+  display: block;
+  width: calc(201% + 1.3px);
+  height: 55px;
+}
+
+.custom-shape-divider-bottom-1632188193 .shape-fill {
+  fill: #298E43;
+}
+
+/* Custom code for the demo */
+
+.img-socialmedia {
+  height: 11px;
+}
+
+.blog-button {
+  color: #fff;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.blog-button {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.blog-button:after {
+  content: ' » ';
+  position: absolute;
+  opacity: 0;
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.blog-button:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+}
+
+.blog-button:hover:after {
+  opacity: 1;
+  right: 10px;
+}
